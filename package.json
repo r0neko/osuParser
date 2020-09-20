@@ -1,0 +1,25 @@
+{
+  "name": "osuparser",
+  "version": "1.0.0",
+  "description": "Syncronous osu! beatmap file parser written in JavaScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/r0neko/osuParser.git"
+  },
+  "keywords": [
+    "osu",
+    "beatmap",
+    "game",
+    "parser"
+  ],
+  "author": "r0neko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/r0neko/osuParser/issues"
+  },
+  "homepage": "https://github.com/r0neko/osuParser#readme"
+}
