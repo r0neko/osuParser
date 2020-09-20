@@ -15,7 +15,7 @@ $ npm install @r0neko/osuparser
 Example code:
 
 ```js
-const osuParser = require("osuparser");
+const osuParser = require("@r0neko/osuparser");
 
 console.log("Opening the beatmap!");
 let map = osuParser.ParseFile("./TestMap.osu");
