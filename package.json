@@ -1,5 +1,5 @@
 {
-  "name": "osuparser",
+  "name": "@r0neko/osuparser",
   "version": "1.0.0",
   "description": "Syncronous osu! beatmap file parser written in JavaScript.",
   "main": "index.js",
