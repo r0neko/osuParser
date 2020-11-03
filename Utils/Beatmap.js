@@ -1,3 +1,5 @@
+const HitCircle = require("./HitObjects").HitCircle;
+
 class Beatmap {
   constructor() {
     this.mode = 0;
@@ -29,6 +31,10 @@ class Beatmap {
 
     this.timingPoints = [];
     this.hitEvents = [];
+  }
+
+  get countHitCircles() {
+    return this.hitEvents.length > 0 ? this.hitEvents.map(e => e instanceof HitCircle).length : 0;
   }
 }
 
